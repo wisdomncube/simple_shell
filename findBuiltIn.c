@@ -10,9 +10,6 @@ int (*getBuiltIn(char *cmd))(shellData *)
 	builtinCommands builtin[] = {
 		{ "env", _env },
 		{ "exit", exitShellProgram },
-		{ "setenv", _setenv },
-		{ "unsetenv", _unsetenv },
-		{ "help", getHelp },
 		{ NULL, NULL }
 	};
 	int i;
