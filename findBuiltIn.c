@@ -12,7 +12,6 @@ int (*getBuiltIn(char *cmd))(shellData *)
 		{ "exit", exitShellProgram },
 		{ "setenv", _setenv },
 		{ "unsetenv", _unsetenv },
-		{ "cd", changeDir },
 		{ "help", getHelp },
 		{ NULL, NULL }
 	};
